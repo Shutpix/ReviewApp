@@ -9,12 +9,12 @@ const Review = sequelize.define('review', {
         primaryKey: true              
     },
     
-    companyName: Sequelize.STRING,      
-
-    pros: Sequelize.STRING,      
+    companyName: Sequelize.STRING, 
+         
+    pros: Sequelize.STRING,  
 
     cons: Sequelize.STRING,
-       
+
     rating: Sequelize.STRING
 });
 

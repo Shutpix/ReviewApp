@@ -1,6 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
+    background:linear-gradient(135deg, orange, rgb(0, 128, 115)  ) ;
+
 }
 
 .review-form {
@@ -28,6 +30,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 5px 0;
+
 }
 
 .reviews-container {
